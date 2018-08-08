@@ -194,7 +194,9 @@ nav a:hover {
     text-align: right;
 }
 
-
+.home-alerts{
+    display: block;
+}
 
 
 
@@ -284,7 +286,8 @@ nav a:hover {
 
 /*  =============
         CUSTOM
-    =============*/    
+    =============*/   
+
     .callouts.home li{
         display: inline-block;
         width: 30%;
@@ -292,6 +295,20 @@ nav a:hover {
         height: 200px;
         max-height: 200px;
         margin: 0.5%;
+    }
+    .callouts.home.care-givers{
+        display: inline-block;
+        width: 61%;
+        vertical-align: top;
+    }
+    .callouts.home.care-givers li{
+        width: 46%;
+    }
+    .home-alerts{
+        display: inline-block;
+        width: 30%;
+        padding: 5px;
+
     }
 
 }
